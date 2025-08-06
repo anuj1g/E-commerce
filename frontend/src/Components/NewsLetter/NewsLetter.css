@@ -51,3 +51,45 @@
     border-radius: 80px;
     cursor: pointer;
 }
+@media (max-width: 800px) {
+    .newsletter {
+        padding: 0 50px;
+        height: 40vh;
+    }
+    .newsletter h1 {
+        font-size: 40px;
+    }
+    .newsletter div {
+        width: 500px;
+    }
+    .newsletter input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .newsletter {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .newsletter h1 {
+        font-size: 30px;
+    }
+    .newsletter div {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .newsletter input {
+        width: 90%;
+        height: 40px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .newsletter div button {
+        width: 90%;
+        height: 40px;
+    }
+}

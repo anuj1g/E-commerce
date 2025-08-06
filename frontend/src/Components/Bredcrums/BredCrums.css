@@ -10,3 +10,9 @@
     margin-bottom: 30px;
     text-transform: capitalize;
 }
+@media (max-width: 800px) {
+    .bredcrums {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}

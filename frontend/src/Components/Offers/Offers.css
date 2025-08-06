@@ -46,3 +46,36 @@
 .offers-right img{
     height: 415px;
 }
+
+@media (max-width: 800px) {
+    .offers {
+        width: 80%;
+        padding: 0 50px;
+    }
+    .offers-left h1 {
+        font-size: 30px;
+    }
+    .offers-right img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .offers {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        width: 90%;
+    }
+    .offers-left {
+        align-items: center;
+    }
+    .offers-right {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .offers-right img {
+        height: 200px;
+    }
+}

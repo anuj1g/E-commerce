@@ -71,3 +71,34 @@
   width: 20px;   
   height: 20px;  
 }
+@media (max-width: 800px) {
+    .shopcategory-banner {
+        width: 90%;
+    }
+    .shopcategory-indexSort {
+        margin: 0 50px;
+    }
+    .shopcategory-products {
+        margin: 20px 50px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .shopcategory-banner {
+        width: 95%;
+        }
+    .shopcategory-indexSort {
+        flex-direction: column;
+        margin: 20px;
+        text-align: center;
+    }
+    .shopcategory-sort {
+        margin-top: 10px;
+    }
+    .shopcategory-products {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+}

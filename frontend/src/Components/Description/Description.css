@@ -30,3 +30,23 @@
     padding: 40px;
     padding-bottom: 50px;
 }
+@media (max-width: 800px) {
+    .descriptionbox {
+        margin: 40px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .descriptionbox-navigator {
+        flex-direction: column;
+        width: 100%;
+    }
+    .descriptionbox-nav-box {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+    .descriptionbox-description {
+        padding: 20px;
+    }
+}

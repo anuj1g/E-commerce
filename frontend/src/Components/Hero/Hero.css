@@ -45,3 +45,41 @@
     align-items: center;
     justify-content: center;
 }
+/* Hero.css */
+/* ... existing code ... */
+
+@media (max-width: 800px) {
+    .hero {
+        padding: 0 40px;
+        height: 80vh;
+    }
+    .hero-left h2 {
+        font-size: 18px;
+    }
+    .hero-left p {
+        font-size: 40px;
+    }
+    .hero-right img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+    .hero-left {
+        padding-left: 20px;
+        text-align: center;
+    }
+    .hero-left p {
+        font-size: 30px;
+    }
+    .hero-right {
+        margin-top: 20px;
+    }
+    .hero-right img {
+        height: 250px;
+    }
+}

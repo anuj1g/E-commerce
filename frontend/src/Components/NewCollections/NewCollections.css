@@ -25,3 +25,18 @@
     gap: 30px;
 
 }
+@media (max-width: 800px) {
+    .newcollections h1 {
+        font-size: 30px;
+    }
+    .collections {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .collections {
+        grid-template-columns: 1fr;
+    }
+}

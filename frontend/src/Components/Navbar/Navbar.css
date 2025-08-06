@@ -81,3 +81,41 @@
     color: white;
 
 }
+/* Navbar.css */
+/* ... existing code ... */
+
+@media (max-width: 800px) {
+    .nav-logo p {
+        font-size: 24px;
+    }
+    .nav-menu {
+        gap: 20px;
+        font-size: 16px;
+    }
+    .nav-login-cart {
+        gap: 20px;
+    }
+    .nav-login-cart button {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: none;
+    }
+    .nav-menu {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+    }
+    .nav-logo {
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
