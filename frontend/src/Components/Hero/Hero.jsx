@@ -1,8 +1,9 @@
+// Hero.jsx
 import React from 'react'
 import "./Hero.css"
 import hand_icon from "../../assets/hand_icon.png"
 import arrow_icon from "../../assets/arrow_icon.png"
-import men from "../../assets/p8.webp"
+import hero_image from "../../assets/p8.webp" // Variable ka naam badla
 const Hero = () => {
   return (
     <div className='hero'>
@@ -20,8 +21,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="hero-right">
-            <img src={men} alt="" height="400px"/>
-            
+            <img src={hero_image} alt="Hero Banner" height="400px"/>
         </div>
     </div>
   )

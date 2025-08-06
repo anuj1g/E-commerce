@@ -15,6 +15,7 @@
 
 .productdisplay-img-list img{
     height: 160px;
+    cursor: pointer;
 }
 .productdisplay-main-img{
    

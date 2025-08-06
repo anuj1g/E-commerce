@@ -1,3 +1,4 @@
+/* ShopCategory.css */
 .shopcategory-banner{
     display: block;
     margin: 30px auto;
@@ -8,11 +9,6 @@
     margin: 0px 170px;
     justify-content: space-between;
     align-items: center;
-}
-.shopcategory-sort{
-    padding: 10px 20px;
-    border-radius: 40px;
-    border: 1px solid #888;
 }
 .shopcategory-indexSort p span{
     font-weight: 600;
@@ -36,4 +32,42 @@
     color: #4d4a4a;
     font-size: 18px;
     font-weight: 500;
+}
+
+.shopcategory-sort {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.shopcategory-sort select{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    background: white;
+    color: #4d4a4a;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-right: 40px; /* Dropdown icon ke liye space */
+}
+
+/* Naya code dropdown icon ke liye */
+.shopcategory-sort::after {
+  content: ''; /* content ko empty rakhenge */
+  background-image: url('../assets/dropdown_icon.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 15px 15px; /* Size ko yahan se control karenge */
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  width: 20px;   
+  height: 20px;  
 }
